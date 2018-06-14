@@ -81,6 +81,7 @@
   <ItemGroup>
     <CudaCompile Include="CUDAexample.cu" />
     <CudaCompile Include="CUDAmatrixVector.cu" />
+    <CudaCompile Include="EigenMatrixVector.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -88,6 +89,7 @@
   <ItemGroup>
     <ClInclude Include="CUDAexample.h" />
     <ClInclude Include="CUDAmatrixVector.h" />
+    <ClInclude Include="EigenMatrixVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

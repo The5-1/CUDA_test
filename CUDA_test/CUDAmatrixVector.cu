@@ -5,6 +5,9 @@
 
 #include <iostream>
 
+//Eigen + CUDA
+//https://stackoverflow.com/questions/23802209/how-to-work-with-eigen-in-cuda-kernels/41120980#41120980
+
 
 __global__ void matrixVectorMultiplication(int vectorSize, int matrixRows, int matrixColums, float* vector, float* matrix, float* result) {
 	int i_thread = blockIdx.x*blockDim.x + threadIdx.x;
