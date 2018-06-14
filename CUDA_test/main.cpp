@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "CUDAexample.h"
+#include "CUDAmatrixVector.h"
 
 
 int main()
