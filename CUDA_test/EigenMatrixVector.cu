@@ -50,7 +50,7 @@ __global__ void cu_getOffsetVector(int numVerts, int numVariance, float* basisMa
 	
 	}
 
-	//Make sure result doesnt contain any value
+	//Make sure the result row is 0.0 before we add the summs
 	outOffsetVector[i_thread] = 0.0f;
 
 	for (int v = 0; v < numVariance; v++) {
